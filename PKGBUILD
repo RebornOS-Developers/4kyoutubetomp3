@@ -1,8 +1,8 @@
 # Maintainer: Rafael <rafael@rebornos.org>
-# v4.3.2.4560
+# v4.3.3.4570
 
 pkgname=4kyoutubetomp3
-pkgver=4.3.2
+pkgver=4.3.3
 pkgrel=1
 pkgdesc="Turn YouTube links into MP3 files in one click."
 arch=('any')
@@ -12,7 +12,7 @@ makedepends=('make')
 provides=(${pkgname})
 conflicts=(${pkgname})
 source=(${url}/${pkgname}_${pkgver}-${pkgrel}_amd64.deb)
-sha512sums=('5db9de0365f031d7ad9e96297c7a07f2ff9f3084f313aa924aed14f0c72136b8f0cb95efe94dc9dd80ad24aa4e2594f20cc522ad0e85cc5adecf385aad0dc634')
+sha512sums=('c8b4f3b690b9a073f9d0e138de9165a59b4e7b9d1bc33f2873f8a4ab591d96d7c29fe01836b11c501ec957a0ea36d875e5e3baaabebe584fe52cf4a521666220')
 
 package() {
            mkdir -p ${pkgdir}/usr/bin
